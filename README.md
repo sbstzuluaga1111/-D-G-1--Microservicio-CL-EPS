@@ -99,12 +99,12 @@ use.get('/punto3', async (req, res)=> {
         
     }});
 ```
-# Punto 4:
-# Punto 5:
-# Punto 6:
-# Punto 7:
-# Punto 8:
-# Punto 9:
-# Punto 10:
-# Punto 11:
-# Punto 12:
+# Punto 4: Encontrar la próxima cita para un paciente en específico (por ejemplo, el paciente con user_id 1).
+# Punto 5: Encontrar todos los pacientes que tienen citas con un médico en específico (por ejemplo, el médico con med_numMatriculaProfesional 1).
+# Punto 6: Encontrar todas las citas de un día en específico (por ejemplo, ‘2023-07-12’).
+# Punto 7: Obtener todos los médicos con sus consultorios correspondientes.
+# Punto 8: Contar el número de citas que un médico tiene en un día específico (por ejemplo, el médico con med_numMatriculaProfesional 1 en ‘2023-07-12’).
+# Punto 9: Obtener lo/s consultorio/s donde se aplicó las citas de un paciente.
+# Punto 10: Obtener todas las citas realizadas por los pacientes de acuerdo al género registrado, siempre y cuando el estado de la cita se encuentra registrada como “Atendida”.
+# Punto 11: Insertar un paciente a la tabla usuario, donde si es menor de edad deberá solicitar primero que ingrese el acudiente y validar si ya estaba registrado el acudiente (El usuario deberá poder ingresar de manera personalizada los datos del usuario a ingresar).
+# Punto 12: Mostrar todas las citas que fueron canceladas de un mes en específico. Dicha consulta deberá mostrar la fecha de la cita, el nombre del usuario y el médico designado.
